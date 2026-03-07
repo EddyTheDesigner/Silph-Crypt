@@ -3,7 +3,7 @@
 	"id": "silph-crypt",
 	"version": "${version}",
 	"name": "Silph Crypt",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Encrypt and decrypt Minecraft chat messages with a shared secret key. Use /silphcrypt key <key> to get started.",
 	"authors": [
 		"Me!"
 	],
