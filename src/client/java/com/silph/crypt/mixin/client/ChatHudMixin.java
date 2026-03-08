@@ -24,7 +24,7 @@ public class ChatHudMixin {
         method = "addMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/MessageSignature;Lnet/minecraft/client/GuiMessageTag;)V",
         at = @At("HEAD"),
         argsOnly = true,
-        index = 0
+        ordinal = 0
     )
     private Component silphcrypt_decryptIncoming(Component original) {
         if (!KeyManager.hasKey()) return original;
