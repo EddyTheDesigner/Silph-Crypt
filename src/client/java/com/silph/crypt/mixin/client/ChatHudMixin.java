@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
-@Mixin(ChatComponent.class)
+@Mixin(value = ChatComponent.class, priority = 1100)
 public class ChatHudMixin {
 
     /**
